@@ -1,0 +1,6 @@
+[Unit]
+StopWhenUnneeded=true
+Wants={{ master_wants }}
+
+[Install]
+WantedBy=multi-user.target
