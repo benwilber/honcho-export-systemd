@@ -13,7 +13,7 @@ web: python app.py
 $ honcho export -a app -d /home/app -u app systemd /usr/lib/systemd/system
 ```
 
-produces the following systemd service files:
+produces the following `systemd` service files:
 
 ```
 # app.target
