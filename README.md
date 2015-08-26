@@ -19,9 +19,10 @@ produces the following `systemd` service files:
 # app.target
 [Unit]
 StopWhenUnneeded=true
-Wants=app-web.target
+Wants=honcho-export-systemd-web.target
 
 [Install]
+WantedBy=multi-user.target
 ```
 
 ```
